@@ -18,8 +18,8 @@
 #define Green 12
 #include "camera_pins.h"
 
-const char* ssid = "-----------"; //Wifi Name SSID
-const char* password = "----------"; //WIFI Password
+const char* ssid = "Epsilon"; //Wifi Name SSID
+const char* password = "Osiris_052"; //WIFI Password
 
 void startCameraServer();
 
@@ -29,10 +29,10 @@ long prevMillis=0;
 int interval = 5000;
 
 void setup() {
-  pinMode(Relay,OUTPUT);
+  //pinMode(Relay,OUTPUT);
   pinMode(Red,OUTPUT);
   pinMode(Green,OUTPUT);
-  digitalWrite(Relay,LOW);
+  //digitalWrite(Relay,LOW);
   digitalWrite(Red,HIGH);
   digitalWrite(Green,LOW);
   
